@@ -1,0 +1,693 @@
+Watching for file changes with StatReloader
+C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /prefix/about/ HTTP/1.1" 200 28
+"GET /prefix/ HTTP/1.1" 200 13
+C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\lectures\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Index page accessed
+"GET /prefix/ HTTP/1.1" 200 13
+Error in about page: division by zero
+Traceback (most recent call last):
+  File "C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp\views.py", line 15, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+"GET /prefix/about/ HTTP/1.1" 200 28
+C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\lectures\settings.py changed, reloading.
+INFO 2024-03-26 14:04:14,701 autoreload 2844 11992 Watching for file changes with StatReloader
+ERROR 2024-03-26 14:04:26,375 views 2844 2596 Error in about page: division by zero
+Traceback (most recent call last):
+  File "C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp\views.py", line 15, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2024-03-26 14:04:26,382 basehttp 2844 2596 "GET /prefix/about/ HTTP/1.1" 200 28
+INFO 2024-03-26 14:04:31,224 views 2844 2596 Index page accessed
+INFO 2024-03-26 14:04:31,225 basehttp 2844 2596 "GET /prefix/ HTTP/1.1" 200 13
+INFO 2024-03-28 12:48:31,109 autoreload 1532 11616 Watching for file changes with StatReloader
+WARNING 2024-03-28 12:48:35,143 log 1532 9816 Not Found: /
+WARNING 2024-03-28 12:48:35,234 basehttp 1532 9816 "GET / HTTP/1.1" 404 2168
+WARNING 2024-03-28 12:48:36,886 log 1532 9816 Not Found: /favicon.ico
+WARNING 2024-03-28 12:48:36,890 basehttp 1532 9816 "GET /favicon.ico HTTP/1.1" 404 2219
+INFO 2024-03-28 13:11:30,765 autoreload 13300 7952 Watching for file changes with StatReloader
+INFO 2024-03-28 13:12:53,194 autoreload 12628 13136 Watching for file changes with StatReloader
+INFO 2024-03-28 13:35:58,351 autoreload 13096 11304 Watching for file changes with StatReloader
+INFO 2024-04-08 08:47:35,678 autoreload 2412 6476 Watching for file changes with StatReloader
+WARNING 2024-04-08 08:47:44,677 log 2412 8744 Not Found: /
+WARNING 2024-04-08 08:47:44,678 basehttp 2412 8744 "GET / HTTP/1.1" 404 2273
+WARNING 2024-04-08 08:47:45,030 log 2412 8744 Not Found: /favicon.ico
+WARNING 2024-04-08 08:47:45,032 basehttp 2412 8744 "GET /favicon.ico HTTP/1.1" 404 2324
+WARNING 2024-04-08 08:48:57,863 log 2412 7468 Not Found: /les3
+WARNING 2024-04-08 08:48:57,864 basehttp 2412 7468 "GET /les3 HTTP/1.1" 404 2303
+INFO 2024-04-08 08:55:21,564 autoreload 2412 6476 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp3\views.py changed, reloading.
+INFO 2024-04-08 08:55:22,488 autoreload 7468 9624 Watching for file changes with StatReloader
+WARNING 2024-04-08 08:58:55,421 log 7468 2544 Not Found: /les3
+WARNING 2024-04-08 08:58:55,421 basehttp 7468 2544 "GET /les3 HTTP/1.1" 404 2303
+INFO 2024-04-08 09:01:01,683 autoreload 7468 9624 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp3\urls.py changed, reloading.
+INFO 2024-04-08 09:01:02,520 autoreload 8504 10096 Watching for file changes with StatReloader
+INFO 2024-04-08 09:01:48,775 autoreload 8504 10096 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp3\urls.py changed, reloading.
+INFO 2024-04-08 09:01:49,559 autoreload 3536 7044 Watching for file changes with StatReloader
+WARNING 2024-04-08 09:01:55,795 log 3536 5052 Not Found: /les3
+WARNING 2024-04-08 09:01:55,796 basehttp 3536 5052 "GET /les3 HTTP/1.1" 404 2303
+WARNING 2024-04-08 09:01:58,202 log 3536 11608 Not Found: /les3
+WARNING 2024-04-08 09:01:58,203 basehttp 3536 11608 "GET /les3 HTTP/1.1" 404 2303
+WARNING 2024-04-08 09:02:02,122 log 3536 11608 Not Found: /
+WARNING 2024-04-08 09:02:02,123 basehttp 3536 11608 "GET / HTTP/1.1" 404 2273
+WARNING 2024-04-08 09:02:12,958 log 3536 9580 Not Found: /les3
+WARNING 2024-04-08 09:02:12,959 basehttp 3536 9580 "GET /les3 HTTP/1.1" 404 2303
+INFO 2024-04-08 09:03:42,108 basehttp 3536 13928 "GET /les3/hello HTTP/1.1" 301 0
+INFO 2024-04-08 09:03:42,118 basehttp 3536 5252 "GET /les3/hello/ HTTP/1.1" 200 26
+INFO 2024-04-08 09:13:17,830 basehttp 3536 4192 "GET /les3/hello2 HTTP/1.1" 301 0
+INFO 2024-04-08 09:13:17,837 basehttp 3536 13428 "GET /les3/hello2/ HTTP/1.1" 200 23
+INFO 2024-04-08 09:17:27,143 autoreload 3536 7044 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp3\urls.py changed, reloading.
+INFO 2024-04-08 09:17:27,950 autoreload 13484 9348 Watching for file changes with StatReloader
+INFO 2024-04-08 09:18:12,272 autoreload 13484 9348 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp3\urls.py changed, reloading.
+INFO 2024-04-08 09:18:13,126 autoreload 956 4824 Watching for file changes with StatReloader
+INFO 2024-04-08 10:53:19,116 autoreload 956 4824 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp3\views.py changed, reloading.
+INFO 2024-04-08 10:53:19,982 autoreload 10460 11604 Watching for file changes with StatReloader
+INFO 2024-04-08 10:55:10,915 autoreload 10460 11604 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp3\views.py changed, reloading.
+INFO 2024-04-08 10:55:11,801 autoreload 3816 12924 Watching for file changes with StatReloader
+INFO 2024-04-08 10:58:05,218 autoreload 3816 12924 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp3\views.py changed, reloading.
+INFO 2024-04-08 10:58:06,041 autoreload 1404 11968 Watching for file changes with StatReloader
+INFO 2024-04-08 11:18:29,631 autoreload 8708 3824 Watching for file changes with StatReloader
+INFO 2024-04-08 11:18:50,911 autoreload 8708 3824 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp3\urls.py changed, reloading.
+INFO 2024-04-08 11:18:51,676 autoreload 13108 11960 Watching for file changes with StatReloader
+INFO 2024-04-08 11:19:01,521 autoreload 13108 11960 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp3\urls.py changed, reloading.
+INFO 2024-04-08 11:19:02,322 autoreload 7192 13548 Watching for file changes with StatReloader
+INFO 2024-04-08 11:19:13,280 autoreload 7192 13548 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp3\urls.py changed, reloading.
+INFO 2024-04-08 11:19:14,077 autoreload 13588 1832 Watching for file changes with StatReloader
+WARNING 2024-04-08 11:19:15,760 log 13588 3472 Not Found: /
+WARNING 2024-04-08 11:19:15,761 basehttp 13588 3472 "GET / HTTP/1.1" 404 2273
+INFO 2024-04-08 11:19:21,694 basehttp 13588 9356 "GET /les3/hello2/ HTTP/1.1" 200 23
+WARNING 2024-04-08 11:19:38,651 log 13588 6124 Not Found: /les3/posts
+WARNING 2024-04-08 11:19:38,652 basehttp 13588 6124 "GET /les3/posts HTTP/1.1" 404 2967
+INFO 2024-04-08 11:22:05,307 autoreload 13588 1832 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp3\views.py changed, reloading.
+INFO 2024-04-08 11:22:06,177 autoreload 12816 5708 Watching for file changes with StatReloader
+INFO 2024-04-08 11:22:29,769 autoreload 12816 5708 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp3\urls.py changed, reloading.
+INFO 2024-04-08 11:22:30,595 autoreload 10592 13484 Watching for file changes with StatReloader
+INFO 2024-04-08 11:22:55,762 basehttp 10592 5136 "GET /les3/posts/2022 HTTP/1.1" 301 0
+INFO 2024-04-08 11:22:55,770 basehttp 10592 7420 "GET /les3/posts/2022/ HTTP/1.1" 200 19
+INFO 2024-04-08 14:16:00,773 basehttp 10592 2208 "GET /les3/posts/2022/6 HTTP/1.1" 301 0
+INFO 2024-04-08 14:16:00,782 basehttp 10592 10956 "GET /les3/posts/2022/6/ HTTP/1.1" 200 20
+INFO 2024-04-08 14:18:09,143 autoreload 10592 13484 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp3\views.py changed, reloading.
+INFO 2024-04-08 14:18:10,386 autoreload 9508 6804 Watching for file changes with StatReloader
+WARNING 2024-04-08 14:19:44,091 log 9508 13640 Not Found: /les3/posts/2022/6/знерщт
+WARNING 2024-04-08 14:19:44,093 basehttp 9508 13640 "GET /les3/posts/2022/6/%D0%B7%D0%BD%D0%B5%D1%80%D1%89%D1%82 HTTP/1.1" 404 3282
+INFO 2024-04-08 14:19:54,298 basehttp 9508 12468 "GET /les3/posts/2022/6/python HTTP/1.1" 301 0
+INFO 2024-04-08 14:19:54,306 basehttp 9508 8316 "GET /les3/posts/2022/6/python/ HTTP/1.1" 200 359
+INFO 2024-04-08 14:40:11,919 autoreload 9508 6804 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp3\views.py changed, reloading.
+INFO 2024-04-08 14:40:12,852 autoreload 9364 12444 Watching for file changes with StatReloader
+INFO 2024-04-08 14:40:42,768 autoreload 9364 12444 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp3\views.py changed, reloading.
+INFO 2024-04-08 14:40:43,516 autoreload 8296 13956 Watching for file changes with StatReloader
+INFO 2024-04-08 14:44:14,923 autoreload 8296 13956 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp3\urls.py changed, reloading.
+INFO 2024-04-08 14:44:16,089 autoreload 13812 13524 Watching for file changes with StatReloader
+INFO 2024-04-08 14:44:38,983 autoreload 13812 13524 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp3\urls.py changed, reloading.
+INFO 2024-04-08 14:44:40,186 autoreload 1704 9684 Watching for file changes with StatReloader
+INFO 2024-04-08 14:45:17,088 basehttp 1704 2128 "GET /les3/ HTTP/1.1" 200 179
+INFO 2024-04-08 14:46:39,041 autoreload 1704 9684 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp3\urls.py changed, reloading.
+INFO 2024-04-08 14:46:40,171 autoreload 13156 7320 Watching for file changes with StatReloader
+INFO 2024-04-08 14:51:06,731 autoreload 13156 7320 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp3\urls.py changed, reloading.
+INFO 2024-04-08 14:51:07,901 autoreload 8452 14164 Watching for file changes with StatReloader
+INFO 2024-04-08 14:56:15,262 autoreload 8452 14164 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp3\views.py changed, reloading.
+INFO 2024-04-08 14:56:16,475 autoreload 5396 7464 Watching for file changes with StatReloader
+INFO 2024-04-08 14:57:29,207 autoreload 5396 7464 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp3\views.py changed, reloading.
+INFO 2024-04-08 14:57:30,072 autoreload 7420 7904 Watching for file changes with StatReloader
+INFO 2024-04-08 15:22:52,492 autoreload 7420 7904 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp3\urls.py changed, reloading.
+INFO 2024-04-08 15:22:53,767 autoreload 13828 12468 Watching for file changes with StatReloader
+INFO 2024-04-08 15:23:39,183 autoreload 13828 12468 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp3\urls.py changed, reloading.
+INFO 2024-04-08 15:23:40,021 autoreload 10592 9224 Watching for file changes with StatReloader
+INFO 2024-04-08 15:24:00,330 autoreload 10592 9224 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp3\urls.py changed, reloading.
+INFO 2024-04-08 15:24:01,154 autoreload 4952 3812 Watching for file changes with StatReloader
+INFO 2024-04-08 15:24:51,004 basehttp 4952 13000 "GET /les3/if HTTP/1.1" 301 0
+ERROR 2024-04-08 15:24:51,085 log 4952 2544 Internal Server Error: /les3/if/
+Traceback (most recent call last):
+  File "C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\djangovenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\djangovenv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\djangovenv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\djangovenv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\djangovenv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\djangovenv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp3/templ_if.html
+ERROR 2024-04-08 15:24:51,089 basehttp 4952 2544 "GET /les3/if/ HTTP/1.1" 500 82419
+INFO 2024-04-08 15:28:21,650 autoreload 4952 3812 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp3\views.py changed, reloading.
+INFO 2024-04-08 15:28:22,554 autoreload 8968 10672 Watching for file changes with StatReloader
+INFO 2024-04-08 15:28:33,367 autoreload 9596 12856 Watching for file changes with StatReloader
+WARNING 2024-04-08 15:28:40,622 log 9596 12132 Not Found: /
+WARNING 2024-04-08 15:28:40,623 basehttp 9596 12132 "GET / HTTP/1.1" 404 2273
+INFO 2024-04-08 15:28:55,838 basehttp 9596 8936 "GET /les3/ HTTP/1.1" 200 179
+ERROR 2024-04-08 15:29:02,391 log 9596 13484 Internal Server Error: /les3/if/
+Traceback (most recent call last):
+  File "C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\djangovenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\djangovenv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\djangovenv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\djangovenv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\djangovenv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\djangovenv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp3/templ_if.html
+ERROR 2024-04-08 15:29:02,394 basehttp 9596 13484 "GET /les3/if/ HTTP/1.1" 500 82419
+INFO 2024-04-08 17:49:10,973 autoreload 1448 2128 Watching for file changes with StatReloader
+WARNING 2024-04-08 17:49:12,843 log 1448 1876 Not Found: /
+WARNING 2024-04-08 17:49:12,844 basehttp 1448 1876 "GET / HTTP/1.1" 404 2273
+WARNING 2024-04-08 17:49:24,298 log 1448 3648 Not Found: /дуы3
+WARNING 2024-04-08 17:49:24,299 basehttp 1448 3648 "GET /%D0%B4%D1%83%D1%8B3 HTTP/1.1" 404 2324
+INFO 2024-04-08 17:49:29,805 basehttp 1448 3648 "GET /les3/ HTTP/1.1" 200 179
+ERROR 2024-04-08 17:49:34,581 log 1448 14792 Internal Server Error: /les3/if/
+Traceback (most recent call last):
+  File "C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\djangovenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\djangovenv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\djangovenv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\djangovenv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\djangovenv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\djangovenv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp3/templ_if.html
+ERROR 2024-04-08 17:49:34,585 basehttp 1448 14792 "GET /les3/if/ HTTP/1.1" 500 82419
+WARNING 2024-04-08 17:52:02,066 log 1448 14824 Not Found: /les3/templ_if/
+WARNING 2024-04-08 17:52:02,067 basehttp 1448 14824 "GET /les3/templ_if/ HTTP/1.1" 404 3548
+WARNING 2024-04-08 17:52:29,217 log 1448 9012 Not Found: /les3/ if/
+WARNING 2024-04-08 17:52:29,218 basehttp 1448 9012 "GET /les3/%20if/ HTTP/1.1" 404 3535
+ERROR 2024-04-08 17:52:35,499 log 1448 1420 Internal Server Error: /les3/if/
+Traceback (most recent call last):
+  File "C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\djangovenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\djangovenv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\djangovenv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\djangovenv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\djangovenv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\djangovenv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp3/templ_if.html
+ERROR 2024-04-08 17:52:35,504 basehttp 1448 1420 "GET /les3/if/ HTTP/1.1" 500 82419
+INFO 2024-04-08 17:54:10,048 basehttp 1448 14476 "GET /les3/if/ HTTP/1.1" 200 348
+INFO 2024-04-08 17:58:34,561 autoreload 1448 2128 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp3\views.py changed, reloading.
+INFO 2024-04-08 17:58:35,523 autoreload 1708 12004 Watching for file changes with StatReloader
+INFO 2024-04-08 17:59:22,267 autoreload 1708 12004 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp3\views.py changed, reloading.
+INFO 2024-04-08 17:59:23,137 autoreload 14516 8124 Watching for file changes with StatReloader
+INFO 2024-04-08 17:59:58,223 autoreload 14516 8124 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp3\urls.py changed, reloading.
+INFO 2024-04-08 17:59:59,007 autoreload 5184 6496 Watching for file changes with StatReloader
+INFO 2024-04-08 18:00:16,334 autoreload 5184 6496 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp3\urls.py changed, reloading.
+INFO 2024-04-08 18:00:17,101 autoreload 8012 12208 Watching for file changes with StatReloader
+INFO 2024-04-08 18:02:03,279 basehttp 8012 6404 "GET /les3/for/ HTTP/1.1" 200 859
+INFO 2024-04-08 18:24:35,366 autoreload 8012 12208 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp3\views.py changed, reloading.
+INFO 2024-04-08 18:24:36,637 autoreload 8316 11300 Watching for file changes with StatReloader
+INFO 2024-04-08 18:25:52,871 autoreload 8316 11300 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp3\views.py changed, reloading.
+INFO 2024-04-08 18:25:54,111 autoreload 14500 12996 Watching for file changes with StatReloader
+INFO 2024-04-08 18:26:52,884 autoreload 14500 12996 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp3\urls.py changed, reloading.
+INFO 2024-04-08 18:26:54,022 autoreload 13396 13088 Watching for file changes with StatReloader
+INFO 2024-04-08 18:28:46,090 autoreload 13396 13088 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp3\urls.py changed, reloading.
+INFO 2024-04-08 18:28:46,861 autoreload 7096 13468 Watching for file changes with StatReloader
+INFO 2024-04-08 18:28:57,416 basehttp 7096 14636 "GET /les3/index/ HTTP/1.1" 200 250
+INFO 2024-04-08 18:29:03,882 basehttp 7096 13816 "GET /les3/about/ HTTP/1.1" 200 257
+INFO 2024-04-08 18:31:43,311 autoreload 7096 13468 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\lectures\settings.py changed, reloading.
+INFO 2024-04-08 18:31:44,495 autoreload 9988 11572 Watching for file changes with StatReloader
+INFO 2024-04-08 18:36:47,999 basehttp 9988 7228 "GET /les3/index/ HTTP/1.1" 200 310
+INFO 2024-04-08 18:39:08,818 autoreload 9988 11572 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\lectures\urls.py changed, reloading.
+INFO 2024-04-08 18:39:10,287 autoreload 13336 12824 Watching for file changes with StatReloader
+INFO 2024-04-08 18:39:51,806 basehttp 13336 15336 "GET / HTTP/1.1" 200 310
+INFO 2024-04-08 18:47:56,156 autoreload 13336 12824 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp3\models.py changed, reloading.
+INFO 2024-04-08 18:47:57,530 autoreload 11836 10172 Watching for file changes with StatReloader
+INFO 2024-04-08 22:20:17,770 autoreload 9972 12540 Watching for file changes with StatReloader
+INFO 2024-04-08 22:20:24,612 basehttp 9972 12768 "GET /les3/author/5 HTTP/1.1" 301 0
+INFO 2024-04-08 22:20:24,631 basehttp 9972 12200 "GET /les3/author/5/ HTTP/1.1" 200 1238
+INFO 2024-04-08 22:21:06,508 basehttp 9972 13520 "GET /les3/post/50/ HTTP/1.1" 200 706
+INFO 2024-04-09 09:07:22,359 basehttp 9972 6588 "GET /les3/post/50/ HTTP/1.1" 200 706
+INFO 2024-04-13 18:17:06,844 autoreload 11888 12188 Watching for file changes with StatReloader
+INFO 2024-04-13 18:19:00,827 autoreload 13236 5584 Watching for file changes with StatReloader
+INFO 2024-04-13 18:27:24,705 autoreload 10532 7568 Watching for file changes with StatReloader
+INFO 2024-04-13 18:28:01,308 autoreload 10532 7568 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\lectures\settings.py changed, reloading.
+INFO 2024-04-13 18:28:02,116 autoreload 13020 428 Watching for file changes with StatReloader
+INFO 2024-04-13 18:28:05,622 basehttp 13020 13076 "GET / HTTP/1.1" 200 310
+WARNING 2024-04-13 18:28:06,020 log 13020 13076 Not Found: /favicon.ico
+WARNING 2024-04-13 18:28:06,021 basehttp 13020 13076 "GET /favicon.ico HTTP/1.1" 404 2529
+WARNING 2024-04-13 18:28:36,090 log 13020 8900 Not Found: /less4/user_form
+WARNING 2024-04-13 18:28:36,090 basehttp 13020 8900 "GET /less4/user_form HTTP/1.1" 404 2541
+INFO 2024-04-13 18:29:08,049 basehttp 13020 12812 "GET / HTTP/1.1" 200 310
+WARNING 2024-04-13 18:29:54,159 log 13020 10988 Not Found: /less4/user
+WARNING 2024-04-13 18:29:54,160 basehttp 13020 10988 "GET /less4/user HTTP/1.1" 404 2526
+WARNING 2024-04-13 18:30:00,382 log 13020 12656 Not Found: /less4/user/add
+WARNING 2024-04-13 18:30:00,383 basehttp 13020 12656 "GET /less4/user/add HTTP/1.1" 404 2538
+INFO 2024-04-13 18:32:03,033 autoreload 10416 10508 Watching for file changes with StatReloader
+WARNING 2024-04-13 18:32:06,811 log 10416 10228 Not Found: /less4/user/add
+WARNING 2024-04-13 18:32:06,812 basehttp 10416 10228 "GET /less4/user/add HTTP/1.1" 404 2538
+WARNING 2024-04-13 18:32:07,888 log 10416 10228 Not Found: /less4/user/add
+WARNING 2024-04-13 18:32:07,889 basehttp 10416 10228 "GET /less4/user/add HTTP/1.1" 404 2538
+WARNING 2024-04-13 18:32:08,360 log 10416 10228 Not Found: /less4/user/add
+WARNING 2024-04-13 18:32:08,361 basehttp 10416 10228 "GET /less4/user/add HTTP/1.1" 404 2538
+WARNING 2024-04-13 18:32:08,531 log 10416 10228 Not Found: /less4/user/add
+WARNING 2024-04-13 18:32:08,531 basehttp 10416 10228 "GET /less4/user/add HTTP/1.1" 404 2538
+WARNING 2024-04-13 18:32:08,696 log 10416 10228 Not Found: /less4/user/add
+WARNING 2024-04-13 18:32:08,696 basehttp 10416 10228 "GET /less4/user/add HTTP/1.1" 404 2538
+WARNING 2024-04-13 18:33:07,383 log 10416 7316 Not Found: /less4/
+WARNING 2024-04-13 18:33:07,383 basehttp 10416 7316 "GET /less4/ HTTP/1.1" 404 2514
+WARNING 2024-04-13 18:33:16,333 log 10416 10552 Not Found: /less4/user
+WARNING 2024-04-13 18:33:16,334 basehttp 10416 10552 "GET /less4/user HTTP/1.1" 404 2526
+WARNING 2024-04-13 18:33:21,745 log 10416 10108 Not Found: /less4/user/add
+WARNING 2024-04-13 18:33:21,746 basehttp 10416 10108 "GET /less4/user/add HTTP/1.1" 404 2538
+INFO 2024-04-13 18:35:39,922 autoreload 10416 10508 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp4\urls.py changed, reloading.
+INFO 2024-04-13 18:35:40,770 autoreload 11384 1172 Watching for file changes with StatReloader
+INFO 2024-04-13 18:37:09,048 autoreload 11384 1172 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp4\urls.py changed, reloading.
+INFO 2024-04-13 18:37:09,784 autoreload 12968 5660 Watching for file changes with StatReloader
+WARNING 2024-04-13 18:37:15,437 log 12968 10092 Not Found: /less4/user/add
+WARNING 2024-04-13 18:37:15,438 basehttp 12968 10092 "GET /less4/user/add HTTP/1.1" 404 2538
+WARNING 2024-04-13 18:37:16,690 log 12968 10092 Not Found: /less4/user/add
+WARNING 2024-04-13 18:37:16,691 basehttp 12968 10092 "GET /less4/user/add HTTP/1.1" 404 2538
+WARNING 2024-04-13 18:37:16,883 log 12968 10092 Not Found: /less4/user/add
+WARNING 2024-04-13 18:37:16,884 basehttp 12968 10092 "GET /less4/user/add HTTP/1.1" 404 2538
+WARNING 2024-04-13 18:37:17,069 log 12968 10092 Not Found: /less4/user/add
+WARNING 2024-04-13 18:37:17,070 basehttp 12968 10092 "GET /less4/user/add HTTP/1.1" 404 2538
+WARNING 2024-04-13 18:37:17,258 log 12968 10092 Not Found: /less4/user/add
+WARNING 2024-04-13 18:37:17,259 basehttp 12968 10092 "GET /less4/user/add HTTP/1.1" 404 2538
+INFO 2024-04-13 18:39:29,429 basehttp 12968 9484 "GET /les4/user/add HTTP/1.1" 301 0
+INFO 2024-04-13 18:39:29,455 basehttp 12968 12780 "GET /les4/user/add/ HTTP/1.1" 200 607
+INFO 2024-04-13 19:01:44,458 basehttp 12968 7188 "GET /les4/user/add/ HTTP/1.1" 200 825
+INFO 2024-04-13 19:33:40,540 autoreload 12968 5660 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp4\forms.py changed, reloading.
+INFO 2024-04-13 19:33:41,715 autoreload 10192 12284 Watching for file changes with StatReloader
+INFO 2024-04-13 19:33:58,978 autoreload 10192 12284 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp4\forms.py changed, reloading.
+INFO 2024-04-13 19:33:59,829 autoreload 13144 4844 Watching for file changes with StatReloader
+INFO 2024-04-13 19:49:52,613 autoreload 13144 4844 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp4\views.py changed, reloading.
+INFO 2024-04-13 19:49:53,389 autoreload 12696 12992 Watching for file changes with StatReloader
+INFO 2024-04-13 19:51:02,903 autoreload 12696 12992 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp4\views.py changed, reloading.
+INFO 2024-04-13 19:51:03,917 autoreload 10232 11936 Watching for file changes with StatReloader
+INFO 2024-04-13 19:53:14,927 autoreload 10232 11936 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp4\urls.py changed, reloading.
+INFO 2024-04-13 19:53:16,035 autoreload 3068 10896 Watching for file changes with StatReloader
+INFO 2024-04-13 19:54:59,553 autoreload 3396 8832 Watching for file changes with StatReloader
+INFO 2024-04-13 19:55:49,342 basehttp 3396 4204 "GET /les4/forms HTTP/1.1" 301 0
+INFO 2024-04-13 19:55:49,379 basehttp 3396 2184 "GET /les4/forms/ HTTP/1.1" 200 1513
+INFO 2024-04-13 20:04:59,588 basehttp 3396 10528 "POST /les4/forms/ HTTP/1.1" 200 1585
+INFO 2024-04-13 20:05:48,811 basehttp 3396 10832 "POST /les4/forms/ HTTP/1.1" 200 1587
+INFO 2024-04-13 20:17:09,949 autoreload 3396 8832 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp4\forms.py changed, reloading.
+INFO 2024-04-13 20:17:11,128 autoreload 12612 12368 Watching for file changes with StatReloader
+INFO 2024-04-13 20:17:59,652 autoreload 12612 12368 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp4\forms.py changed, reloading.
+INFO 2024-04-13 20:18:00,908 autoreload 9292 12488 Watching for file changes with StatReloader
+INFO 2024-04-13 20:21:43,609 autoreload 9292 12488 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp4\views.py changed, reloading.
+INFO 2024-04-13 20:21:44,892 autoreload 13016 11728 Watching for file changes with StatReloader
+INFO 2024-04-13 20:22:17,039 autoreload 13016 11728 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp4\views.py changed, reloading.
+INFO 2024-04-13 20:22:18,227 autoreload 3752 8852 Watching for file changes with StatReloader
+INFO 2024-04-13 20:22:49,946 basehttp 3752 8636 "POST /les4/forms/ HTTP/1.1" 200 2286
+WARNING 2024-04-13 20:22:50,306 log 3752 8636 Not Found: /favicon.ico
+WARNING 2024-04-13 20:22:50,307 basehttp 3752 8636 "GET /favicon.ico HTTP/1.1" 404 2529
+INFO 2024-04-13 20:29:17,505 basehttp 3752 7760 "POST /les4/forms/ HTTP/1.1" 200 2218
+INFO 2024-04-13 20:31:26,614 autoreload 3752 8852 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp4\forms.py changed, reloading.
+INFO 2024-04-13 20:31:27,784 autoreload 12968 13140 Watching for file changes with StatReloader
+INFO 2024-04-13 20:31:35,597 basehttp 12968 3720 "POST /les4/forms/ HTTP/1.1" 200 2218
+INFO 2024-04-13 20:36:25,794 autoreload 12968 13140 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp4\forms.py changed, reloading.
+INFO 2024-04-13 20:36:26,828 autoreload 4112 3648 Watching for file changes with StatReloader
+INFO 2024-04-13 20:37:12,317 autoreload 4112 3648 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp4\forms.py changed, reloading.
+INFO 2024-04-13 20:37:13,178 autoreload 10620 12312 Watching for file changes with StatReloader
+INFO 2024-04-13 20:38:29,656 autoreload 10620 12312 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp4\forms.py changed, reloading.
+INFO 2024-04-13 20:38:30,826 autoreload 3812 11104 Watching for file changes with StatReloader
+INFO 2024-04-13 20:42:08,288 autoreload 3812 11104 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp4\models.py changed, reloading.
+INFO 2024-04-13 20:42:09,220 autoreload 2532 4256 Watching for file changes with StatReloader
+INFO 2024-04-13 20:42:31,456 autoreload 2532 4256 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp4\models.py changed, reloading.
+INFO 2024-04-13 20:42:32,592 autoreload 12456 3292 Watching for file changes with StatReloader
+INFO 2024-04-13 20:50:43,269 autoreload 10048 3632 Watching for file changes with StatReloader
+WARNING 2024-04-13 20:50:52,934 log 10048 9900 Not Found: /les4/user
+WARNING 2024-04-13 20:50:52,934 basehttp 10048 9900 "GET /les4/user HTTP/1.1" 404 2780
+INFO 2024-04-13 20:52:22,518 autoreload 10048 3632 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp4\urls.py changed, reloading.
+INFO 2024-04-13 20:52:23,347 autoreload 3956 12196 Watching for file changes with StatReloader
+INFO 2024-04-13 20:52:29,864 basehttp 3956 5632 "GET /les4/user HTTP/1.1" 301 0
+INFO 2024-04-13 20:52:29,894 basehttp 3956 8504 "GET /les4/user/ HTTP/1.1" 200 864
+ERROR 2024-04-13 20:53:46,237 log 3956 12640 Internal Server Error: /les4/user/
+Traceback (most recent call last):
+  File "C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\djangovenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\djangovenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp4\views.py", line 42, in add_user
+    logger.info(f'Получили {name=}, {email=}, {age=}.')
+                            ^^^^
+UnboundLocalError: cannot access local variable 'name' where it is not associated with a value
+ERROR 2024-04-13 20:53:46,241 basehttp 3956 12640 "POST /les4/user/ HTTP/1.1" 500 70661
+INFO 2024-04-13 20:54:58,106 autoreload 3956 12196 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp4\views.py changed, reloading.
+INFO 2024-04-13 20:54:58,994 autoreload 10492 7376 Watching for file changes with StatReloader
+INFO 2024-04-13 20:55:07,020 basehttp 10492 10888 "POST /les4/user/ HTTP/1.1" 200 1035
+INFO 2024-04-13 20:55:12,881 basehttp 10492 8764 "POST /les4/user/ HTTP/1.1" 200 1035
+INFO 2024-04-13 20:55:58,945 basehttp 10492 8512 "POST /les4/user/ HTTP/1.1" 200 923
+INFO 2024-04-13 20:57:26,935 autoreload 10492 7376 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp4\forms.py changed, reloading.
+INFO 2024-04-13 20:57:27,809 autoreload 4272 10628 Watching for file changes with StatReloader
+INFO 2024-04-13 20:57:33,924 basehttp 4272 5032 "POST /les4/user/ HTTP/1.1" 200 923
+INFO 2024-04-13 20:57:36,924 basehttp 4272 5032 "POST /les4/user/ HTTP/1.1" 200 923
+INFO 2024-04-13 20:57:41,605 basehttp 4272 12400 "POST /les4/user/ HTTP/1.1" 200 923
+INFO 2024-04-13 20:57:45,821 basehttp 4272 12400 "POST /les4/user/ HTTP/1.1" 200 923
+INFO 2024-04-13 20:58:01,265 autoreload 4272 10628 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp4\forms.py changed, reloading.
+INFO 2024-04-13 20:58:02,498 autoreload 9840 12532 Watching for file changes with StatReloader
+INFO 2024-04-13 21:00:40,788 autoreload 9840 12532 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp4\forms.py changed, reloading.
+INFO 2024-04-13 21:00:41,752 autoreload 11820 8332 Watching for file changes with StatReloader
+INFO 2024-04-13 21:03:23,493 autoreload 11820 8332 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\lectures\settings.py changed, reloading.
+INFO 2024-04-13 21:03:24,768 autoreload 4460 10480 Watching for file changes with StatReloader
+INFO 2024-04-13 21:05:02,726 autoreload 4460 10480 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp4\views.py changed, reloading.
+INFO 2024-04-13 21:05:03,526 autoreload 6712 7964 Watching for file changes with StatReloader
+INFO 2024-04-13 21:07:17,168 autoreload 6712 7964 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp4\urls.py changed, reloading.
+INFO 2024-04-13 21:07:18,218 autoreload 8224 1228 Watching for file changes with StatReloader
+INFO 2024-04-13 21:09:59,878 basehttp 8224 11332 "GET /les4/upload HTTP/1.1" 301 0
+INFO 2024-04-13 21:09:59,900 basehttp 8224 1800 "GET /les4/upload/ HTTP/1.1" 200 660
+INFO 2024-04-13 21:10:13,274 basehttp 8224 12668 "POST /les4/upload/ HTTP/1.1" 200 660
+INFO 2024-04-15 14:23:53,062 autoreload 10840 8704 Watching for file changes with StatReloader
+INFO 2024-04-15 14:23:56,571 basehttp 10840 5532 "GET / HTTP/1.1" 200 310
+INFO 2024-04-15 14:24:19,270 basehttp 10840 740 "GET /admin HTTP/1.1" 301 0
+INFO 2024-04-15 14:24:19,290 basehttp 10840 10776 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-04-15 14:24:19,365 basehttp 10840 10776 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+INFO 2024-04-15 14:24:19,584 basehttp 10840 10128 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+INFO 2024-04-15 14:24:19,592 basehttp 10840 10128 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-04-15 14:24:19,598 basehttp 10840 13852 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2024-04-15 14:24:19,619 basehttp 10840 8752 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+INFO 2024-04-15 14:24:19,622 basehttp 10840 8028 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2024-04-15 14:24:19,624 basehttp 10840 10776 "GET /static/admin/css/base.css HTTP/1.1" 200 21544
+INFO 2024-04-15 14:24:19,646 basehttp 10840 2744 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2024-04-15 14:25:46,118 autoreload 10840 8704 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\lectures\settings.py changed, reloading.
+INFO 2024-04-15 14:25:47,429 autoreload 6216 8900 Watching for file changes with StatReloader
+INFO 2024-04-15 14:25:49,340 basehttp 6216 3132 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-04-15 14:33:41,730 autoreload 5324 4564 Watching for file changes with StatReloader
+INFO 2024-04-15 14:33:42,887 basehttp 5324 7900 "GET / HTTP/1.1" 200 310
+INFO 2024-04-15 14:34:03,321 basehttp 5324 8616 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-04-15 14:34:03,374 basehttp 5324 8616 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-04-15 14:34:21,221 basehttp 5324 7516 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-04-15 14:34:21,243 basehttp 5324 7516 "GET /admin/ HTTP/1.1" 200 5944
+INFO 2024-04-15 14:34:21,336 basehttp 5324 7516 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2024-04-15 14:34:21,350 basehttp 5324 7516 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-04-15 14:34:21,350 basehttp 5324 8548 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-04-15 14:36:14,022 basehttp 5324 12688 "GET /admin/auth/user/ HTTP/1.1" 200 11914
+INFO 2024-04-15 14:36:14,112 basehttp 5324 12688 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+INFO 2024-04-15 14:36:14,121 basehttp 5324 1052 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2024-04-15 14:36:14,124 basehttp 5324 1872 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2024-04-15 14:36:14,127 basehttp 5324 12688 "GET /static/admin/js/actions.js HTTP/1.1" 200 8067
+INFO 2024-04-15 14:36:14,134 basehttp 5324 1052 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2024-04-15 14:36:14,139 basehttp 5324 5760 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+INFO 2024-04-15 14:36:14,143 basehttp 5324 4824 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 14:36:14,148 basehttp 5324 1052 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2024-04-15 14:36:14,149 basehttp 5324 1872 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-04-15 14:36:14,151 basehttp 5324 6280 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2024-04-15 14:36:14,156 basehttp 5324 5760 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2024-04-15 14:36:14,159 basehttp 5324 12688 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2024-04-15 14:36:14,241 basehttp 5324 5760 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2024-04-15 14:36:14,255 basehttp 5324 5760 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2024-04-15 14:36:14,258 basehttp 5324 12688 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2024-04-15 14:36:14,260 basehttp 5324 1052 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2024-04-15 14:36:40,100 basehttp 5324 9904 "GET /admin/auth/user/add/ HTTP/1.1" 200 11238
+INFO 2024-04-15 14:36:40,168 basehttp 5324 9904 "GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+INFO 2024-04-15 14:36:40,176 basehttp 5324 6948 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2024-04-15 14:36:40,182 basehttp 5324 13336 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 14:36:40,273 basehttp 5324 13336 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11800
+INFO 2024-04-15 14:36:40,284 basehttp 5324 6948 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2024-04-15 14:37:27,004 basehttp 5324 12692 "POST /admin/auth/user/add/ HTTP/1.1" 200 11457
+INFO 2024-04-15 14:37:27,070 basehttp 5324 12692 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 14:37:52,598 basehttp 5324 4972 "POST /admin/auth/user/add/ HTTP/1.1" 200 11670
+INFO 2024-04-15 14:37:52,664 basehttp 5324 4972 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 14:38:09,319 basehttp 5324 14144 "POST /admin/auth/user/add/ HTTP/1.1" 200 11670
+INFO 2024-04-15 14:38:09,361 basehttp 5324 14144 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 14:38:24,837 basehttp 5324 11692 "POST /admin/auth/user/add/ HTTP/1.1" 200 11566
+INFO 2024-04-15 14:38:24,877 basehttp 5324 11692 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 14:38:45,071 basehttp 5324 4260 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2024-04-15 14:38:45,139 basehttp 5324 4260 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 24986
+INFO 2024-04-15 14:38:45,190 basehttp 5324 4260 "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+INFO 2024-04-15 14:38:45,192 basehttp 5324 13244 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2024-04-15 14:38:45,193 basehttp 5324 14128 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2024-04-15 14:38:45,196 basehttp 5324 13112 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15492
+INFO 2024-04-15 14:38:45,196 basehttp 5324 5556 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 14:38:45,335 basehttp 5324 5556 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2024-04-15 14:38:45,337 basehttp 5324 13244 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2024-04-15 14:38:45,338 basehttp 5324 4260 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2024-04-15 14:38:45,338 basehttp 5324 13112 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2024-04-15 14:38:45,338 basehttp 5324 14128 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2024-04-15 14:40:37,668 basehttp 5324 8412 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2024-04-15 14:40:37,715 basehttp 5324 8412 "GET /admin/auth/user/ HTTP/1.1" 200 12640
+INFO 2024-04-15 14:40:37,786 basehttp 5324 8412 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 14:40:47,890 basehttp 5324 3716 "GET /admin/auth/group/add/ HTTP/1.1" 200 14125
+INFO 2024-04-15 14:40:47,952 basehttp 5324 3716 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 14:41:29,393 basehttp 5324 10044 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2024-04-15 14:41:29,435 basehttp 5324 10044 "GET /admin/auth/group/ HTTP/1.1" 200 9506
+INFO 2024-04-15 14:41:29,515 basehttp 5324 14296 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 14:41:32,590 basehttp 5324 14296 "GET /admin/auth/user/ HTTP/1.1" 200 12722
+INFO 2024-04-15 14:41:32,658 basehttp 5324 14296 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 14:41:35,571 basehttp 5324 14296 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 24760
+INFO 2024-04-15 14:41:35,644 basehttp 5324 14296 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 14:41:46,474 basehttp 5324 3400 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2024-04-15 14:41:46,519 basehttp 5324 3400 "GET /admin/auth/user/ HTTP/1.1" 200 12942
+INFO 2024-04-15 14:41:46,577 basehttp 5324 3400 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 14:41:58,523 basehttp 5324 1056 "POST /admin/logout/ HTTP/1.1" 200 3817
+INFO 2024-04-15 14:42:01,022 basehttp 5324 2232 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-04-15 14:42:01,033 basehttp 5324 2232 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-04-15 14:42:11,644 basehttp 5324 13272 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-04-15 14:42:11,662 basehttp 5324 13272 "GET /admin/ HTTP/1.1" 200 4892
+INFO 2024-04-15 14:45:38,403 autoreload 5324 4564 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp5\models.py changed, reloading.
+INFO 2024-04-15 14:45:39,556 autoreload 7048 7332 Watching for file changes with StatReloader
+INFO 2024-04-15 14:49:42,596 autoreload 6280 13704 Watching for file changes with StatReloader
+INFO 2024-04-15 14:49:48,507 basehttp 6280 13644 "GET /admin/ HTTP/1.1" 200 4892
+INFO 2024-04-15 14:49:51,882 basehttp 6280 12744 "POST /admin/logout/ HTTP/1.1" 200 3817
+INFO 2024-04-15 14:50:00,269 basehttp 6280 8932 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-04-15 14:50:00,314 basehttp 6280 8932 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-04-15 14:50:16,825 basehttp 6280 12088 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-04-15 14:50:16,845 basehttp 6280 12088 "GET /admin/ HTTP/1.1" 200 8572
+INFO 2024-04-15 14:52:00,157 autoreload 6280 13704 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp3\admin.py changed, reloading.
+INFO 2024-04-15 14:52:01,326 autoreload 11768 4976 Watching for file changes with StatReloader
+INFO 2024-04-15 14:52:14,947 basehttp 11768 13404 "GET /admin/ HTTP/1.1" 200 9687
+INFO 2024-04-15 14:52:59,452 basehttp 11768 2748 "POST /admin/logout/ HTTP/1.1" 200 3817
+INFO 2024-04-15 14:53:01,923 basehttp 11768 9176 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-04-15 14:53:01,963 basehttp 11768 9176 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-04-15 14:53:12,952 basehttp 11768 10456 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-04-15 14:53:12,972 basehttp 11768 10456 "GET /admin/ HTTP/1.1" 200 5431
+INFO 2024-04-15 14:53:24,704 basehttp 11768 7664 "GET /admin/myapp3/post/ HTTP/1.1" 200 17501
+INFO 2024-04-15 14:53:30,871 basehttp 11768 10944 "GET /admin/myapp3/post/15/change/ HTTP/1.1" 200 10522
+INFO 2024-04-15 14:53:30,943 basehttp 11768 10944 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 14:53:39,395 basehttp 11768 10944 "POST /admin/myapp3/post/15/change/ HTTP/1.1" 302 0
+INFO 2024-04-15 14:53:39,459 basehttp 11768 10944 "GET /admin/myapp3/post/ HTTP/1.1" 200 17716
+INFO 2024-04-15 14:53:53,342 basehttp 11768 11432 "GET /admin/myapp3/post/100/change/ HTTP/1.1" 200 10570
+INFO 2024-04-15 14:53:53,408 basehttp 11768 11432 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 14:53:58,067 basehttp 11768 11432 "POST /admin/logout/ HTTP/1.1" 200 3817
+INFO 2024-04-15 14:53:59,871 basehttp 11768 11432 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-04-15 14:53:59,890 basehttp 11768 11432 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-04-15 14:54:10,428 basehttp 11768 9712 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-04-15 14:54:10,448 basehttp 11768 9712 "GET /admin/ HTTP/1.1" 200 9687
+INFO 2024-04-15 14:54:13,751 basehttp 11768 12244 "GET /admin/myapp3/post/ HTTP/1.1" 200 44767
+INFO 2024-04-15 14:54:13,838 basehttp 11768 12244 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 14:54:15,093 basehttp 11768 12244 "GET /admin/myapp3/post/100/change/ HTTP/1.1" 200 13765
+INFO 2024-04-15 14:54:15,204 basehttp 11768 12244 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 14:54:22,947 basehttp 11768 5688 "GET /admin/myapp5/category/ HTTP/1.1" 200 9108
+INFO 2024-04-15 14:54:23,010 basehttp 11768 5688 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 14:54:24,636 basehttp 11768 5688 "GET /admin/myapp5/category/add/ HTTP/1.1" 200 9949
+INFO 2024-04-15 14:54:24,737 basehttp 11768 5688 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 14:54:36,920 basehttp 11768 9900 "POST /admin/myapp5/category/add/ HTTP/1.1" 302 0
+INFO 2024-04-15 14:54:36,957 basehttp 11768 9900 "GET /admin/myapp5/category/add/ HTTP/1.1" 200 10239
+INFO 2024-04-15 14:54:37,021 basehttp 11768 9900 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 14:54:41,940 basehttp 11768 12792 "POST /admin/myapp5/category/add/ HTTP/1.1" 302 0
+INFO 2024-04-15 14:54:41,977 basehttp 11768 12792 "GET /admin/myapp5/category/2/change/ HTTP/1.1" 200 10463
+INFO 2024-04-15 14:54:42,041 basehttp 11768 12792 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 14:54:50,179 basehttp 11768 12792 "GET /admin/myapp5/category/ HTTP/1.1" 200 10963
+INFO 2024-04-15 14:54:50,223 basehttp 11768 12792 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 14:54:53,386 basehttp 11768 2108 "GET /admin/myapp5/product/ HTTP/1.1" 200 9101
+INFO 2024-04-15 14:54:53,430 basehttp 11768 2108 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 14:54:56,396 basehttp 11768 2108 "GET /admin/myapp5/product/add/ HTTP/1.1" 200 11818
+INFO 2024-04-15 14:54:56,436 basehttp 11768 2108 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 14:55:16,474 basehttp 11768 8752 "POST /admin/myapp5/product/add/ HTTP/1.1" 302 0
+INFO 2024-04-15 14:55:16,514 basehttp 11768 8752 "GET /admin/myapp5/product/add/ HTTP/1.1" 200 12099
+INFO 2024-04-15 14:55:16,573 basehttp 11768 8752 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 14:55:24,154 basehttp 11768 12192 "POST /admin/myapp5/product/add/ HTTP/1.1" 302 0
+INFO 2024-04-15 14:55:24,200 basehttp 11768 12192 "GET /admin/myapp5/product/add/ HTTP/1.1" 200 12105
+INFO 2024-04-15 14:55:24,266 basehttp 11768 12192 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 14:55:37,238 basehttp 11768 9032 "GET /admin/myapp5/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 4444
+INFO 2024-04-15 14:55:37,314 basehttp 11768 9032 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 14:55:55,721 basehttp 11768 14024 "POST /admin/myapp5/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 403
+INFO 2024-04-15 14:55:55,874 basehttp 11768 14024 "GET /static/admin/js/popup_response.js HTTP/1.1" 200 551
+INFO 2024-04-15 14:56:06,833 basehttp 11768 13288 "POST /admin/myapp5/product/add/ HTTP/1.1" 302 0
+INFO 2024-04-15 14:56:06,870 basehttp 11768 13288 "GET /admin/myapp5/product/add/ HTTP/1.1" 200 12146
+INFO 2024-04-15 14:56:06,944 basehttp 11768 13288 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 14:56:16,795 basehttp 11768 1480 "POST /admin/myapp5/product/add/ HTTP/1.1" 302 0
+INFO 2024-04-15 14:56:16,842 basehttp 11768 1480 "GET /admin/myapp5/product/ HTTP/1.1" 200 11836
+INFO 2024-04-15 14:56:16,916 basehttp 11768 1480 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 14:56:31,999 basehttp 11768 9184 "GET /admin/myapp5/product/1/change/ HTTP/1.1" 200 12079
+INFO 2024-04-15 14:56:32,077 basehttp 11768 9184 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 14:56:34,879 basehttp 11768 9184 "GET /admin/myapp5/product/1/delete/ HTTP/1.1" 200 9155
+INFO 2024-04-15 14:56:34,934 basehttp 11768 9184 "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+INFO 2024-04-15 14:56:53,841 basehttp 11768 3852 "POST /admin/myapp5/product/1/delete/ HTTP/1.1" 302 0
+INFO 2024-04-15 14:56:53,882 basehttp 11768 3852 "GET /admin/myapp5/product/ HTTP/1.1" 200 11456
+INFO 2024-04-15 14:56:53,947 basehttp 11768 3852 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 15:01:55,790 autoreload 11768 4976 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp5\models.py changed, reloading.
+INFO 2024-04-15 15:01:56,864 autoreload 8176 2452 Watching for file changes with StatReloader
+INFO 2024-04-15 15:04:13,722 autoreload 8176 2452 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp5\models.py changed, reloading.
+INFO 2024-04-15 15:06:50,648 autoreload 2132 10884 Watching for file changes with StatReloader
+INFO 2024-04-15 15:06:56,551 basehttp 2132 8620 "GET /admin/myapp5/product/ HTTP/1.1" 200 11294
+INFO 2024-04-15 15:06:56,628 basehttp 2132 8620 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 15:07:06,750 basehttp 2132 6160 "GET /admin/myapp5/product/4/change/ HTTP/1.1" 200 14635
+INFO 2024-04-15 15:07:06,827 basehttp 2132 6160 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 15:07:48,862 basehttp 2132 7292 "POST /admin/myapp5/product/4/change/ HTTP/1.1" 302 0
+INFO 2024-04-15 15:07:48,896 basehttp 2132 7292 "GET /admin/myapp5/product/ HTTP/1.1" 200 11512
+INFO 2024-04-15 15:07:48,961 basehttp 2132 7292 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 15:09:06,926 autoreload 2132 10884 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp5\admin.py changed, reloading.
+INFO 2024-04-15 15:09:08,306 autoreload 14000 6348 Watching for file changes with StatReloader
+INFO 2024-04-15 15:09:13,538 basehttp 14000 916 "GET /admin/myapp5/product/ HTTP/1.1" 200 11834
+INFO 2024-04-15 15:09:13,599 basehttp 14000 916 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 15:09:20,810 basehttp 14000 916 "GET /admin/myapp5/product/?o=2 HTTP/1.1" 200 12242
+INFO 2024-04-15 15:09:20,871 basehttp 14000 916 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 15:09:22,077 basehttp 14000 1320 "GET /admin/myapp5/product/?o=-2 HTTP/1.1" 200 12248
+INFO 2024-04-15 15:09:22,137 basehttp 14000 1320 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 15:09:44,035 basehttp 14000 7160 "GET /admin/myapp5/product/?o= HTTP/1.1" 200 11934
+INFO 2024-04-15 15:09:44,107 basehttp 14000 7160 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 15:10:41,589 autoreload 14000 6348 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp5\admin.py changed, reloading.
+INFO 2024-04-15 15:10:42,692 autoreload 8940 9888 Watching for file changes with StatReloader
+INFO 2024-04-15 15:10:51,701 basehttp 8940 3924 "GET /admin/myapp5/product/?o= HTTP/1.1" 200 11934
+INFO 2024-04-15 15:10:51,756 basehttp 8940 3924 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 15:11:00,829 basehttp 8940 4856 "GET /admin/myapp5/product/?o=2 HTTP/1.1" 200 12242
+INFO 2024-04-15 15:11:00,880 basehttp 8940 4856 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 15:11:03,638 basehttp 8940 8704 "GET /admin/myapp5/product/?o=3.2 HTTP/1.1" 200 12732
+INFO 2024-04-15 15:11:03,698 basehttp 8940 8704 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 15:11:32,281 autoreload 8940 9888 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp5\admin.py changed, reloading.
+INFO 2024-04-15 15:11:33,195 autoreload 11636 4376 Watching for file changes with StatReloader
+INFO 2024-04-15 15:11:45,618 autoreload 11636 4376 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp5\admin.py changed, reloading.
+INFO 2024-04-15 15:11:46,383 autoreload 2680 10812 Watching for file changes with StatReloader
+INFO 2024-04-15 15:11:50,305 basehttp 2680 14020 "GET /admin/myapp5/product/?o=3.2 HTTP/1.1" 200 14202
+INFO 2024-04-15 15:11:50,350 basehttp 2680 14020 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 15:12:42,595 basehttp 2680 12948 "GET /admin/myapp5/product/4/change/?_changelist_filters=o%3D3.2 HTTP/1.1" 200 14731
+INFO 2024-04-15 15:12:42,660 basehttp 2680 12948 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 15:12:53,648 basehttp 2680 11620 "POST /admin/myapp5/product/4/change/?_changelist_filters=o%3D3.2 HTTP/1.1" 302 0
+INFO 2024-04-15 15:12:53,699 basehttp 2680 11620 "GET /admin/myapp5/product/?o=3.2 HTTP/1.1" 200 14486
+INFO 2024-04-15 15:12:53,767 basehttp 2680 11620 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 15:13:02,935 basehttp 2680 14272 "GET /admin/myapp5/product/?o=3.2&price=150.00 HTTP/1.1" 200 13743
+INFO 2024-04-15 15:13:02,995 basehttp 2680 14272 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 15:13:06,074 basehttp 2680 14272 "GET /admin/myapp5/product/?o=3.2 HTTP/1.1" 200 14268
+INFO 2024-04-15 15:13:06,122 basehttp 2680 14272 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 15:13:24,569 basehttp 2680 13392 "GET /admin/myapp5/product/?o=3.2 HTTP/1.1" 200 14268
+INFO 2024-04-15 15:13:24,632 basehttp 2680 13392 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 15:13:25,638 basehttp 2680 13392 "GET /admin/myapp5/product/?o=3.2&price=150.00 HTTP/1.1" 200 13743
+INFO 2024-04-15 15:13:25,704 basehttp 2680 13392 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 15:13:27,330 basehttp 2680 13392 "GET /admin/myapp5/product/?o=3.2 HTTP/1.1" 200 14268
+INFO 2024-04-15 15:13:27,376 basehttp 2680 13392 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 15:14:35,218 autoreload 2680 10812 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp5\admin.py changed, reloading.
+INFO 2024-04-15 15:14:36,530 autoreload 5620 3884 Watching for file changes with StatReloader
+INFO 2024-04-15 15:14:43,588 basehttp 5620 13296 "GET /admin/myapp5/product/?o=3.2 HTTP/1.1" 200 14824
+INFO 2024-04-15 15:14:43,661 basehttp 5620 13296 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 15:15:39,343 basehttp 5620 12116 "GET /admin/myapp5/product/3/change/?_changelist_filters=o%3D3.2 HTTP/1.1" 200 14705
+INFO 2024-04-15 15:15:39,416 basehttp 5620 12116 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 15:15:50,053 basehttp 5620 580 "POST /admin/myapp5/product/3/change/?_changelist_filters=o%3D3.2 HTTP/1.1" 302 0
+INFO 2024-04-15 15:15:50,109 basehttp 5620 580 "GET /admin/myapp5/product/?o=3.2 HTTP/1.1" 200 15036
+INFO 2024-04-15 15:15:50,166 basehttp 5620 580 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 15:15:54,552 basehttp 5620 9908 "GET /admin/myapp5/product/?q=%D0%B2%D0%BA%D1%83%D1%81&o=3.2 HTTP/1.1" 200 14621
+INFO 2024-04-15 15:15:54,621 basehttp 5620 9908 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 15:16:47,255 autoreload 5620 3884 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp5\admin.py changed, reloading.
+INFO 2024-04-15 15:16:48,531 autoreload 12948 10808 Watching for file changes with StatReloader
+INFO 2024-04-15 15:18:21,969 autoreload 12948 10808 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp5\admin.py changed, reloading.
+INFO 2024-04-15 15:18:22,838 autoreload 2328 12704 Watching for file changes with StatReloader
+INFO 2024-04-15 15:18:54,087 autoreload 2328 12704 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp5\admin.py changed, reloading.
+INFO 2024-04-15 15:18:55,342 autoreload 4972 9032 Watching for file changes with StatReloader
+INFO 2024-04-15 15:19:01,994 basehttp 4972 7560 "GET /admin/myapp5/product/?q=%D0%B2%D0%BA%D1%83%D1%81&o=3.2 HTTP/1.1" 200 14621
+INFO 2024-04-15 15:19:02,051 basehttp 4972 7560 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 15:20:27,087 autoreload 4972 9032 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp5\admin.py changed, reloading.
+INFO 2024-04-15 15:20:28,339 autoreload 12740 1604 Watching for file changes with StatReloader
+INFO 2024-04-15 15:20:32,875 basehttp 12740 9124 "GET /admin/myapp5/product/?q=%D0%B2%D0%BA%D1%83%D1%81&o=3.2 HTTP/1.1" 200 14714
+INFO 2024-04-15 15:20:32,932 basehttp 12740 9124 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 15:20:50,540 basehttp 12740 2752 "GET /admin/myapp5/product/ HTTP/1.1" 200 14681
+INFO 2024-04-15 15:20:50,586 basehttp 12740 2752 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 15:21:05,142 basehttp 12740 1120 "POST /admin/myapp5/product/ HTTP/1.1" 200 9289
+INFO 2024-04-15 15:21:06,533 basehttp 12740 1120 "POST /admin/myapp5/product/ HTTP/1.1" 302 0
+INFO 2024-04-15 15:21:06,622 basehttp 12740 1120 "GET /admin/myapp5/product/ HTTP/1.1" 200 14350
+INFO 2024-04-15 15:21:06,675 basehttp 12740 1120 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 15:21:13,880 basehttp 12740 13136 "GET /admin/myapp5/product/ HTTP/1.1" 200 14204
+INFO 2024-04-15 15:21:13,935 basehttp 12740 13136 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 15:21:29,871 basehttp 12740 8932 "POST /admin/myapp5/product/ HTTP/1.1" 302 0
+INFO 2024-04-15 15:21:29,894 basehttp 12740 8932 "GET /admin/myapp5/product/ HTTP/1.1" 200 14204
+INFO 2024-04-15 15:21:29,935 basehttp 12740 8932 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 15:23:00,343 basehttp 12740 14272 "GET /admin/myapp5/product/3/change/ HTTP/1.1" 200 14645
+INFO 2024-04-15 15:23:00,407 basehttp 12740 14272 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 15:24:24,957 autoreload 12740 1604 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp5\admin.py changed, reloading.
+INFO 2024-04-15 15:24:26,071 autoreload 1320 5280 Watching for file changes with StatReloader
+INFO 2024-04-15 15:24:30,173 basehttp 1320 12948 "GET /admin/myapp5/product/3/change/ HTTP/1.1" 200 13864
+INFO 2024-04-15 15:24:30,240 basehttp 1320 12948 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 15:27:16,534 autoreload 1320 5280 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp5\admin.py changed, reloading.
+INFO 2024-04-15 15:27:17,618 autoreload 7620 2776 Watching for file changes with StatReloader
+INFO 2024-04-15 15:28:36,139 autoreload 7620 2776 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp5\admin.py changed, reloading.
+INFO 2024-04-15 15:28:37,558 autoreload 4976 8400 Watching for file changes with StatReloader
+INFO 2024-04-15 15:29:07,293 autoreload 4976 8400 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp5\admin.py changed, reloading.
+INFO 2024-04-15 15:29:08,140 autoreload 1320 7820 Watching for file changes with StatReloader
+INFO 2024-04-15 15:29:12,200 basehttp 1320 11904 "GET /admin/myapp5/product/3/change/ HTTP/1.1" 200 15778
+INFO 2024-04-15 15:29:12,244 basehttp 1320 7324 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-15 15:29:12,301 basehttp 1320 11904 "GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
+INFO 2024-04-16 15:22:25,597 autoreload 10088 7344 Watching for file changes with StatReloader
+INFO 2024-04-16 15:22:28,718 basehttp 10088 12144 "GET / HTTP/1.1" 200 10115
+INFO 2024-04-16 15:22:28,772 basehttp 10088 12144 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2024-04-16 15:22:28,773 basehttp 10088 9916 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13578
+INFO 2024-04-16 15:22:29,008 basehttp 10088 9916 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2024-04-16 15:22:29,058 basehttp 10088 9916 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+WARNING 2024-04-16 15:22:29,215 log 10088 9916 Not Found: /favicon.ico
+WARNING 2024-04-16 15:22:29,216 basehttp 10088 9916 "GET /favicon.ico HTTP/1.1" 404 12433
+INFO 2024-04-16 15:23:17,467 basehttp 10088 1604 "GET /__debug__/render_panel/?store_id=3fc4a826b67043bb84398f4a0b0f5394&panel_id=HistoryPanel HTTP/1.1" 200 4150
+INFO 2024-04-16 15:23:17,486 basehttp 10088 1604 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 200 3515
+INFO 2024-04-16 15:23:38,495 basehttp 10088 9152 "GET /__debug__/render_panel/?store_id=3fc4a826b67043bb84398f4a0b0f5394&panel_id=VersionsPanel HTTP/1.1" 200 760
+INFO 2024-04-16 16:07:15,176 basehttp 10088 4912 "GET /les4/user/add HTTP/1.1" 200 10873
+INFO 2024-04-16 16:07:15,223 basehttp 10088 9036 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-04-16 16:07:15,224 basehttp 10088 10832 "GET /static/debug_toolbar/js/redirect.js HTTP/1.1" 200 48
+INFO 2024-04-16 16:07:15,225 basehttp 10088 4056 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-04-16 16:07:15,295 basehttp 10088 10832 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-04-16 16:07:15,338 basehttp 10088 10832 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-04-16 16:07:27,492 basehttp 10088 4132 "GET /les4/user/add/ HTTP/1.1" 200 11107
+INFO 2024-04-16 16:07:30,577 basehttp 10088 11212 "GET /__debug__/render_panel/?store_id=3d7463fd1b7b4e0baea2663459dd3b3d&panel_id=ProfilingPanel HTTP/1.1" 200 1280
+INFO 2024-04-16 16:07:47,529 basehttp 10088 14428 "GET /__debug__/render_panel/?store_id=3d7463fd1b7b4e0baea2663459dd3b3d&panel_id=SignalsPanel HTTP/1.1" 200 2276
+INFO 2024-04-16 16:43:00,289 autoreload 3492 3312 Watching for file changes with StatReloader
+INFO 2024-04-16 16:43:14,873 basehttp 3492 9008 "GET /les4/user/add/ HTTP/1.1" 200 11108
+INFO 2024-04-16 16:43:14,918 basehttp 3492 9008 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-04-16 16:43:14,919 basehttp 3492 13152 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-04-16 16:43:15,112 basehttp 3492 13152 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-04-16 16:43:15,144 basehttp 3492 13152 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-04-16 16:44:26,044 basehttp 3492 8292 "GET /les6/db HTTP/1.1" 200 10855
+INFO 2024-04-16 16:44:26,091 basehttp 3492 11388 "GET /static/debug_toolbar/js/redirect.js HTTP/1.1" 200 48
+INFO 2024-04-16 16:44:27,421 basehttp 3492 11388 "GET /les6/db/ HTTP/1.1" 200 10680
+INFO 2024-04-16 16:45:55,592 basehttp 3492 7296 "GET /les6/view HTTP/1.1" 200 10861
+INFO 2024-04-16 16:45:56,553 basehttp 3492 14580 "GET /les6/view/ HTTP/1.1" 200 10665
+INFO 2024-04-16 16:46:33,199 basehttp 3492 2272 "GET /__debug__/render_panel/?store_id=ad014a8a6b664c679742e7b0d47f7227&panel_id=ProfilingPanel HTTP/1.1" 200 45626
+INFO 2024-04-16 16:47:22,855 basehttp 3492 5668 "GET /__debug__/render_panel/?store_id=ad014a8a6b664c679742e7b0d47f7227&panel_id=HistoryPanel HTTP/1.1" 200 9089
+INFO 2024-04-16 16:47:22,869 basehttp 3492 5668 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 200 3515
+INFO 2024-04-16 16:47:40,602 basehttp 3492 7792 "GET /les6/template HTTP/1.1" 200 10873
+INFO 2024-04-16 16:47:41,138 basehttp 3492 2624 "GET /les6/template/ HTTP/1.1" 200 10644
+INFO 2024-04-16 16:56:39,341 basehttp 3492 7792 "GET /les6/template/ HTTP/1.1" 200 10644
+INFO 2024-04-16 16:56:39,365 basehttp 3492 7792 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-04-16 16:56:39,368 basehttp 3492 12304 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-04-16 16:56:39,413 basehttp 3492 12304 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-04-16 16:56:39,417 basehttp 3492 12304 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-04-16 16:56:40,672 basehttp 3492 12304 "GET /les6/template/ HTTP/1.1" 200 10644
+INFO 2024-04-16 16:57:35,534 autoreload 3492 3312 C:\Users\Мой ПК\Desktop\GB разработчик\PythonCourse\Django\lectures\myapp5\models.py changed, reloading.
+INFO 2024-04-16 16:57:36,475 autoreload 14328 15352 Watching for file changes with StatReloader
+INFO 2024-04-16 16:57:39,612 basehttp 14328 11688 "GET /les6/template/ HTTP/1.1" 200 10649
