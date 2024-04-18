@@ -25,7 +25,7 @@ import os
 SECRET_KEY = os.getenv('SECRET_KEY')
 # 'django-insecure-=m(0%r+59_22d0a8^zj5=_=ygfm)sz2s7z79c=vo*0^^%y#=-)'
 
-# SECURITY WARNING: don't run with debug turned on in production!
+# SECURITY WARNING: don't run with deb ug turned on in production!
 DEBUG = False
 SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
